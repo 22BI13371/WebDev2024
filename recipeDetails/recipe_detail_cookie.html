@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/recipe_detail_styles.css" />
+    <script src="/scripts/recipe_detail.js"></script>
+    <!-- font Awsome cdn style sheet -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Recipe Overview</title>
+  </head>
+  <body>
+    <div class="recipe-details">
+      <section class="recipe-summary">
+        <div class="recipe-summary-text-wrapper">
+          <h1 class="recipe-title" id="recipe-title">Healthy Oatmeal Cookie</h1>
+          <p class="attribution">A Food Creator</p>
+          <div class="rating-stars">
+            <a
+              class="recipe-details-rating"
+              href=""
+              title="See Reviews"
+              aria-label="See Reviews"
+            >
+              <span class="fa full-star fa-star" aria-hidden="true"></span>
+              <span class="fa full-star fa-star" aria-hidden="true"></span>
+              <span class="fa full-star fa-star" aria-hidden="true"></span>
+              <span class="fa full-star fa-star" aria-hidden="true"></span>
+              <span class="fa full-star fa-star" aria-hidden="true"></span>
+              <span class="count micro-text">(1)</span>
+            </a>
+          </div>
+          <div class="recipe-info-summary-wrapper">
+            <div class="ingredient-summary-count">
+              <ul>
+                <li class="value">11</li>
+                <li>Ingredients</li>
+              </ul>
+            </div>
+            <div class="time-to-make">
+              <ul>
+                <li class="value">45</li>
+                <li>Minutes</li>
+              </ul>
+            </div>
+            <div class="energy">
+              <ul>
+                <li class="value">170</li>
+                <li>Calories</li>
+              </ul>
+            </div>
+          </div>
+          <div class="interactions-wrapper">
+            <button onclick="readDirectionLink();" id="read-direction">
+              Read Directions
+            </button>
+            <button>Save Recipe</button>
+          </div>
+        </div>
+        <img alt="Lasagne Image" id="summary-image-view" />
+      </section>
+    </div>
+
+    <div class="ingredients-section-title">
+      <h2>Ingredients</h2>
+    </div>
+
+    <section class="ingredients-list">
+      <ul>
+        <li>114 grams <b>butter</b></li>
+        <li>97 grams <b>brown sugar</b></li>
+        <li>1 <b>egg</b></li>
+        <li>1/2 tsp <b>vanilla extract</b></li>
+        <li>94 grams <b>flour</b></li>
+        <li>1/2 tsp <b>baking soda</b></li>
+        <li>1/2 tsp <b>ground cinnamn</b></li>
+        <li>1/4 tsp <b>salt</b></li>
+        <li>122 grams <b>rolled oats</b></li>
+        <li>84 grams <b>raisins</b></li>
+        <li>73 grams <b>chopped buts</b></li>
+      </ul>
+    </section>
+    <div class="nutrition">
+      <div class="circle">
+        <p class="value">170</p>
+        <p>CALORIES</p>
+      </div>
+      <div class="circle">
+        <p class="value">5%</p>
+        <p>SODIUM</p>
+        <p>125mg</p>
+      </div>
+      <div class="circle">
+        <p class="value">14%</p>
+        <p>FAT</p>
+        <p>9g</p>
+      </div>
+      <div class="circle">
+        <p class="value">7%</p>
+        <p>CARBS</p>
+        <p>21g</p>
+      </div>
+      <div class="circle">
+        <p class="value">8%</p>
+        <p>FIBER</p>
+        <p>2g</p>
+      </div>
+      <div class="circle">
+        <p class="value">3%</p>
+        <p>POTASSIUM</p>
+        <p>120mg</p>
+      </div>
+    </div>
+
+    <section class="recipe-tags">
+      <h2>Recipe Tags</h2>
+      <nav>
+        <ul>
+          <li>
+            <a class="recipe-tag-link" href="/GroupPrjWeb/recipe.html"
+              >Desserts</a
+            >
+          </li>
+          <li>Cookies</li>
+          <li>Browning</li>
+          <li>Baking</li>
+        </ul>
+      </nav>
+    </section>
+  </body>
+</html>
