@@ -8,7 +8,7 @@ Students are expected to:
 
 # Student Info
 
-- Name: Nguyễn Đàm Quân
-- ID: 22BI13371
+- Name: Phạm Tiến Nhật
+- ID: 22BI13346
 - Group ID: 17
 - Project Name: Recipe Sharing Website
