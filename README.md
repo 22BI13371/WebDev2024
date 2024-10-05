@@ -1,9 +1,14 @@
-USTH ICT 2024 Web Application Development
+# USTH ICT 2024 Web Application Development
 
-Student Info
-=======================
+Students are expected to:
 
-* Name: Phạm Tiến Nhật
-* ID: 22BI13346
-* Group ID: 17
-* Project Name: Recipe Sharing Website	
+- Fork this repository to your github account
+- Update student name and ID to this README file
+- Push your commits regularly, with proper commit messages
+
+# Student Info
+
+- Name: Nguyễn Đàm Quân
+- ID: 22BI13371
+- Group ID: 17
+- Project Name: Recipe Sharing Website
