@@ -13,7 +13,7 @@ body {
     height: 100vh;
 }
 
-.login-container {
+.register-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,7 +22,7 @@ body {
     background-color: #29353c;
 }
 
-.login-box {
+.register-box {
     background-color: #374d51; 
     padding: 40px;
     border-radius: 15px;
@@ -88,7 +88,7 @@ h2 {
     text-decoration: underline;
 }
 
-.login-button {
+.register-button {
     width: 100%;
     padding: 10px;
     background-color: #ffb703; 
@@ -99,7 +99,7 @@ h2 {
     cursor: pointer;
 }
 
-.login-button:hover {
+.register-button:hover {
     background-color: #faa307;
 }
 
@@ -115,4 +115,23 @@ h2 {
 
 .register a:hover {
     text-decoration: underline;
+}
+
+.back-button {
+    display: block;
+    width: 50%;
+    padding: 10px;
+    margin-top: 15px;
+    background-color: #FFA500; /* Button color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    margin: 10px auto 0px;
+}
+
+.back-button:hover {
+    background-color: #cc8400; /* Darker shade on hover */
 }
