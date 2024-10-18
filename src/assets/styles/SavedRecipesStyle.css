@@ -198,7 +198,30 @@ h1 {
     width: 100%;
     height: 100%;
 }
+/* .mplanner:hover {
+    text-decoration: underline;
+    color: #1da9a2;
+} */
+.mplanner {
+    text-decoration: none;
+    color: inherit; /* Makes the text inherit the normal text color */
+    display: inline-block;
+    padding: 0;
+    margin:0;
+}
+
+/* Hover effect specifically for Meal Planner */
 .mplanner:hover {
     text-decoration: underline;
+    color: #1da9a2;
+}
+
+/* Remove link styling globally for any 'a' element inside .mplanner */
+.mplanner a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.mplanner a:hover {
     color: #1da9a2;
 }
