@@ -23,11 +23,11 @@ function updateRecipeDetailPageContent() {
   switch (title) {
     case titles[0]:
       document.getElementById('summary-image-view').src =
-        '/src/assets/images/lasagna_image.jpg';
+        'assets/images/lasagna_image.jpg';
       break;
     case titles[1]:
       document.getElementById('summary-image-view').src =
-        '/src/assets/images/cookie_healthy.webp';
+        'assets/images/cookie_healthy.webp';
       break;
   }
   return 0;
